@@ -1,11 +1,11 @@
 export const evidence = [
-  "EMF Level 5",
-  "ESG Ghost Reaction",
-  "Easel Canvas Drawing",
-  "Ectoplasm Stains",
+  "EMF 5",
+  "ESG",
+  "Canvas",
+  "Ecto Stains",
   "Fingerprints",
-  "Freezing Temperatures",
-  "Spirit Box Response",
+  "Freezing",
+  "Spirit Box",
 ] as const; // 👈 This makes the array readonly so we can infer its values as types
 
 // Define Evidence as a union type of the values from the evidence array
@@ -23,9 +23,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Iblis",
     evidence: [
-      "Easel Canvas Drawing",
-      "ESG Ghost Reaction",
-      "Spirit Box Response",
+      "Canvas",
+      "ESG",
+      "Spirit Box",
     ],
     description:
       "Iblis is known to be a type of ghost that can sense and see where its prey is, even from a distance. If you are close enough to the Iblis, you can hear it use words that other ghosts won´t.",
@@ -37,7 +37,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Revenant",
-    evidence: ["Fingerprints", "Easel Canvas Drawing", "Freezing Temperatures"],
+    evidence: ["Fingerprints", "Canvas", "Freezing"],
     description:
       "A Revenant is known to be a very dangerous, unpredictable ghost. Regardless of your sanity, it can hunt you down if it feels like it.",
     strengths: "They´re a very unstable ghost, very unpredictable.",
@@ -47,7 +47,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Deogen",
-    evidence: ["Fingerprints", "ESG Ghost Reaction", "Ectoplasm Stains"],
+    evidence: ["Fingerprints", "ESG", "Ecto Stains"],
     description:
       "They are known to have no interest in anything other than the prey in its sights.",
     strengths:
@@ -58,7 +58,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Poltergeist",
-    evidence: ["Fingerprints", "ESG Ghost Reaction", "Spirit Box Response"],
+    evidence: ["Fingerprints", "ESG", "Spirit Box"],
     description:
       "A Poltergeist is known as a ghost that likes to play with its environment. It can throw objects to lower your sanity",
     strengths:
@@ -68,7 +68,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Agash",
-    evidence: ["Fingerprints", "Freezing Temperatures", "Ectoplasm Stains"],
+    evidence: ["Fingerprints", "Freezing", "Ecto Stains"],
     description:
       "Agash is a Ghost that feeds on cold environments. If an Agash decides to hunt, you can see its breath.",
     strengths: "It moves much faster in cold environments.",
@@ -78,7 +78,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Jinn",
-    evidence: ["EMF Level 5", "Freezing Temperatures", "ESG Ghost Reaction"],
+    evidence: ["EMF 5", "Freezing", "ESG"],
     description:
       "Jinns are known to be more active than other ghosts. It has been observed that they're more active if someone is nearby.",
     strengths: "Because it is a very active ghost, it is prone to hunting.",
@@ -91,9 +91,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Shade",
     evidence: [
-      "Easel Canvas Drawing",
-      "Ectoplasm Stains",
-      "Spirit Box Response",
+      "Canvas",
+      "Ecto Stains",
+      "Spirit Box",
     ],
     description:
       "Shades are known as a ghost that are hypersensitive to light. They dislike being in brightly lit environments and always prefers the light to be off.",
@@ -104,9 +104,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Hantu",
     evidence: [
-      "Easel Canvas Drawing",
-      "Freezing Temperatures",
-      "Spirit Box Response",
+      "Canvas",
+      "Freezing",
+      "Spirit Box",
     ],
     description:
       "Hantus are known as ghosts that play with people's minds through their speech. If you somehow manage to talk to one, it will play with your sanity, making you more vulnerable.",
@@ -120,7 +120,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Onryo",
-    evidence: ["EMF Level 5", "Fingerprints", "Easel Canvas Drawing"],
+    evidence: ["EMF 5", "Fingerprints", "Canvas"],
     description:
       "Unlike other ghosts, Onryos are known as shy ghosts. They can choose one person, fall in love with them and attack anyone else.",
     strengths:
@@ -130,7 +130,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Wraith",
-    evidence: ["EMF Level 5", "Fingerprints", "Ectoplasm Stains"],
+    evidence: ["EMF 5", "Fingerprints", "Ecto Stains"],
     description:
       "Wraith is known as a type of ghost that is very fond of its sleep. It doesn't like to be woken up. If you awaken a Wraith, you will have to suffer the consequences.",
     strengths:
@@ -144,7 +144,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Oni",
-    evidence: ["EMF Level 5", "Fingerprints", "Freezing Temperatures"],
+    evidence: ["EMF 5", "Fingerprints", "Freezing"],
     description:
       "The Oni has a special ability that can quickly reduce the sanity of those close to it. It is a very dangerous ghost. If it wants to, it can quickly play with your sanity and decide to kill you.",
     strengths: "It is known to be very fast.",
@@ -154,9 +154,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Myling",
     evidence: [
-      "Freezing Temperatures",
-      "Ectoplasm Stains",
-      "Spirit Box Response",
+      "Freezing",
+      "Ecto Stains",
+      "Spirit Box",
     ],
     description:
       "We still haven't figured out how the Myling is related to fire, but it is known to have an affinity for it. We have observed that it is calmer in environments with fire nearby.",
@@ -171,7 +171,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Thaye",
-    evidence: ["Fingerprints", "Easel Canvas Drawing", "Spirit Box Response"],
+    evidence: ["Fingerprints", "Canvas", "Spirit Box"],
     description: "The Thaye is known as a ghost who can distort the concept of time. As a Thaye ages quickly, it is impossible to know their exact age.",
     strengths: "A Thaye has been known to be much more aggressive and fast when they are young.",
     weaknesses: "A Thaye will move much slower and be less aggressive if they are older.",
@@ -180,7 +180,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Goryo",
-    evidence: ["EMF Level 5", "Fingerprints", "ESG Ghost Reaction"],
+    evidence: ["EMF 5", "Fingerprints", "ESG"],
     description: "A Goryo doesn't interact with ESGs if someone is nearby. Since it's a very rare type of ghost, we don't have much information other than that.",
     strengths: "Goryo does not interact with ESG if someone is nearby.",
     weaknesses: "We don't have any data.",
@@ -189,9 +189,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Raiju",
     evidence: [
-      "Freezing Temperatures",
-      "ESG Ghost Reaction",
-      "Ectoplasm Stains",
+      "Freezing",
+      "ESG",
+      "Ecto Stains",
     ],
     description: "A Raiju is a ghost know to draw strength from solitude. Being alone may mean that you are easier prey for it. Raijus interact less when in a group.",
     strengths: "Lonely Targets are very good prey for them.",
@@ -202,9 +202,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Demon",
     evidence: [
-      "Easel Canvas Drawing",
-      "Freezing Temperatures",
-      "Ectoplasm Stains",
+      "Canvas",
+      "Freezing",
+      "Ecto Stains",
     ],
     description: "Demons are known as normally calm, collected ghosts. They have a lower prey drive than other types of ghosts, but if you manage to anger a demon, it will not stop until it kills you.",
     strengths: "If it decides to kill someone, it will be very hard to stop it.",
@@ -214,7 +214,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Mare",
-    evidence: ["EMF Level 5", "Easel Canvas Drawing", "Freezing Temperatures"],
+    evidence: ["EMF 5", "Canvas", "Freezing"],
     description: "A Mare is a type of ghost that likes to talk, though it has been observed to be less active than other Ghosts.",
     strengths: "Difficult to detect.",
     weaknesses: "If there are someone nearby, it will not want to hunt.",
@@ -222,7 +222,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Yokai",
-    evidence: ["EMF Level 5", "Easel Canvas Drawing", "Spirit Box Response"],
+    evidence: ["EMF 5", "Canvas", "Spirit Box"],
     description: "It is known as a ghost that is extremely sensitive to the concept of time. It is very punctual, time is everything for it. When you encounter a Yokai, it make be your last time if you don't take the time into consideration.",
     strengths: "It will be very active between 6-8, and 10-12 o'clock. It will hunt at least once between 8-10 o'clock.",
     weaknesses: "It will be calmer at hours other than 6-8 and 10-12. It will not react other than hunting between 8-10.",
@@ -232,9 +232,9 @@ export const ghostsData: GhostData[] = [
   {
     ghost: "Naamah",
     evidence: [
-      "Easel Canvas Drawing",
-      "ESG Ghost Reaction",
-      "Ectoplasm Stains",
+      "Canvas",
+      "ESG",
+      "Ecto Stains",
     ],
     description: "It is known to be a thief ghost. It has been observed that it behaves calmly to avoid attracting attention, and prefers to stay in the dark. It is seen that it relocates the tools.",
     strengths: "With its slyness, it can steal the tools on the ground, even the tools you hold.",
@@ -244,7 +244,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Gul",
-    evidence: ["Fingerprints", "Freezing Temperatures", "Spirit Box Response"],
+    evidence: ["Fingerprints", "Freezing", "Spirit Box"],
     description: "The Gul is known as a ghost who listens to the conversations between people. The words you choose are important to it.",
     strengths: "They can get angry and hunt if you swear.",
     weaknesses: "It will be calmer if you don´t Talk too much.",
@@ -252,7 +252,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Abaddon",
-    evidence: ["EMF Level 5", "Freezing Temperatures", "Spirit Box Response"],
+    evidence: ["EMF 5", "Freezing", "Spirit Box"],
     description: "The Abbadon is widely regarded as the most cunning type of ghost. They will not hunt their prey if they are defending themselves, but will usually hunt the defenseless.",
     strengths: "Selects targets that cannot defend themselves, very deadly.",
     weaknesses: "Has a strong chance to ignore you during a hunt when holding a Crucifix",
@@ -260,7 +260,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Boogey",
-    evidence: ["EMF Level 5", "ESG Ghost Reaction", "Spirit Box Response"],
+    evidence: ["EMF 5", "ESG", "Spirit Box"],
     description: "It is one of the most dangerous ghosts to find. It does not want to be found, so it has developed its own defense system. It has been observed that it draws power from items that create paranormal fields. It is thought Boogey does not like the lights to be off. If you dare to find it, you risk death.",
     strengths: "It will drain your sanity very quick if you use EMF, ESG and Spirit Box in its room.",
     weaknesses: "If there is a turned off light nearby, it will try to turn it on. Any lights nearby Boogey won't break.",
@@ -268,7 +268,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Guipo",
-    evidence: ["ESG Ghost Reaction", "Ectoplasm Stains", "Spirit Box Response"],
+    evidence: ["ESG", "Ecto Stains", "Spirit Box"],
     description: "It is known as a ghost that loves to play games and can change its speed depending on the situation. It might want to play games with people. There is no danger when it's playing games but if it gets bored, it means you are in trouble. It has been observed that Guipos play with their victims for 6 to 8 minutes before deciding to kill them.",
     strengths: "It can trigger fake hunts to deceive you. Fake hunts will drain your sanity quickly. When it gets bored of playing games, it will try to kill you.",
     weaknesses: "If it has decided to kill you its speed will decrease to normal. It will move fast in their fake hunts. If he's playing games with you, you're safe.",
@@ -277,7 +277,7 @@ export const ghostsData: GhostData[] = [
   },
   {
     ghost: "Yurei",
-    evidence: ["EMF Level 5", "ESG Ghost Reaction", "Ectoplasm Stains"],
+    evidence: ["EMF 5", "ESG", "Ecto Stains"],
     description: "The Yurei is a Ghost that prefers feeding small amounts of energy off multiple People at once, so that it can grow stronger without being noticed immediately.",
     strengths: "You are more likely to be hunted when traveling in groups.",
     weaknesses: "It may weaken itself if alone.",

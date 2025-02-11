@@ -114,7 +114,7 @@ const EvidencePicker = (props: Props) => {
                             <div key={ev}>{ev}</div>
                           ))
                         ) : (
-                          <span style={{ color: "green" }}>
+                          <span>
                             All evidence found
                           </span>
                         )}

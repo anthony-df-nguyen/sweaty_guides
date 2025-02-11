@@ -10,7 +10,7 @@ type Props = {};
 const EvidencePicker = (props: Props) => {
   const [selectedEvidence, handleEvidence] = useState<Evidence[]>([]);
   const [possibleGhosts, handlePossibleGhosts] =
-    useState<GhostData[]>(ghostsData);
+    useState<GhostData[]>(ghostsData.sort((a,b) => a.ghost > b.ghost ? 1:-1));
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     const val = e.currentTarget.value as Evidence;
